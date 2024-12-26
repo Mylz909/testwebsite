@@ -16,6 +16,20 @@ const products: Product[] = [
     sizes: ["M", "L", "XL"],
     gender: "unisex",
     color: "black"
+  },
+  {
+    id: "2",
+    name: "Classic Black Hoodie",
+    description: "Premium cotton blend hoodie in classic black",
+    price: 599,
+    discountPrice: 499,
+    images: [
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800",
+      "https://images.unsplash.com/photo-1578768079052-aa76e52ff62e?w=800"
+    ],
+    sizes: ["M", "L", "XL"],
+    gender: "unisex",
+    color: "black"
   }
   // Add more products here
 ];
