@@ -142,7 +142,7 @@ export default function CheckoutForm({ onBack, onClose }: CheckoutFormProps) {
         <div className="flex justify-center my-4">
           <ReCAPTCHA
             ref={recaptchaRef}
-            sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" // Replace with your actual site key
+            sitekey="6Lc8yaYqAAAAAG6jyWKKtBDhZZKcN_LIUqnkOF-E" // Replace with your actual site key
             onChange={onCaptchaChange}
           />
         </div>
